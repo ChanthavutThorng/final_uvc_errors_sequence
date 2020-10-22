@@ -76,8 +76,7 @@ db_information = {
 
 # global variable
 file_data = []
-# check_date = (datetime.now() - timedelta(days=1)).strftime("%Y%m%d")
-check_date = '20201018'
+check_date = (datetime.now() - timedelta(days=1)).strftime("%Y%m%d")
 
 # connect to server
 try:
